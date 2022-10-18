@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <style>
+        body {
+    background-color:Hotpink;
+}
+.face{
+    Border-radius:50%;
+    Height:150px;
+    Width:150px;
+    margin-left:125px;
+    background-color:chocolate;
+    Border:5px solid black;
+    position:relative;
+    Top:152px;
+    box-shadow:10px 10px 10px #996633;
+}
+.box{
+    Border-radius:50%;
+    Height:200px;
+    Width:200px;
+    margin-left:100px;
+    background-color:chocolate;
+    Border:5px solid black;
+    box-shadow:10px 10px 10px #996633;
+}
+.eye1,.eye2{
+    background-color:White;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    border:0.2px solid black;
+    position:relative;}
+    .eye1{
+    top:-160px;
+    left:170px;
+}
+.eye2{
+    top:-190px;
+    left:220px;
+}
+
+.e1,.e2{
+    background-color:black;
+    width: 10px;
+    height:10px;
+    border-radius:50%;
+    top:13px;
+    position:relative;
+    animation: animate 1.5s infinite;
+
+}
+@keyframes animate{
+    from {
+        left:5px;
+}
+to{
+    left:15px;
+}
+}
+.nose{
+    background-color: #383838;
+    width:29px;
+    height:20px;
+    border-radius:40%/50%;
+    position:relative;
+    top:90px;
+    left:63px;
+}
+ .ear1{
+
+
+  border-radius: 50px 5px 50px;
+
+  background: chocolate;
+  height: 70px;
+  width:30px ;
+  position:relative;
+  top:-310px ;
+  left:240px;
+  transform:rotate(30deg)  ;
+  transform:rotateY ;
+  border: 2px solid black;
+  border-bottom:none;
+}
+.ear2{
+    border-radius:5px 50px 2px;
+  background: Chocolate;
+  height: 70px;
+  width:30px ;
+  position:relative;
+  top:-370px ;
+  left:125px;
+  transform:rotate(-45deg)  ;
+
+  border: 2px solid black;
+  border-bottom:none;
+}
+.leg1 , .leg2{
+          background-color:chocolate;
+          border:2px solid black;
+          height:40px;
+          width:45px;
+          border-radius:50%  ;
+
+          position:relative;
+          background-image: -webkit-linear-gradient(top, #CC9966, #993300);
+          background-image: linear-gradient(to bottom, #CC9966, #993300)
+
+          }
+.leg1{
+      top:-250px;
+      left:145px  ;
+}
+.leg2{
+      top:-290px;
+      left:205px;
+}
+
+
+.tail{
+    border-radius:50% ;
+
+    width:150px;
+    height:150px;
+    border-bottom:none;
+    border-left:none ;
+
+    box-shadow: inset 5px 15px 0px black;
+    position:relative;
+    top:-610px;
+    left:190px ;
+    animation:flow
+
+}
+.h1 ,.h2 {
+    border-radius:50%;
+    border:2px solid black;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    width:20px;
+    height:20px;
+    position:relative;
+}
+  .h1{
+      top:-560px;
+      left:210px
+
+  }
+  .h2{
+      top:-583px;
+      left:190px;
+  }
+  .ton{
+      width:15px;
+      height:20px;
+      background:#990000 ;
+      border-radius:40% ;
+      position:relative;
+      top:-589px;
+      left:202px ;
+      animation:anim 2s infinite;
+  }
+
+  @keyframes anim{
+      50%{
+
+          height:7px;
+      }
+      100%{
+
+          height:3px;
+      }
+   }
+
+
+
+
+
+
+</style>
+    </head>
+    <body><u>
+<p align ="center">Dog wants some food 🍲.</p></u>
+        <div class="face"><div class="nose"></div></div>
+        <div class="box"></div>
+        <div class="eye1">
+            <div class="e1"> </div></div>
+        <div class="eye2"><div class="e2"></div></div>
+        <div class="ear1"></div>
+        <div class="ear2"></div>
+        <div class="leg1"></div>
+    <div class="leg2"></div>
+    <div class=tail></div>
+    <div class="h1"></div>
+    <div class="h2"></div>
+    <div class="ton"></div>
+    <hr/>
+</body>
+</html>
+
