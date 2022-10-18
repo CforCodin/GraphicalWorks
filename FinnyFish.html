@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <style>
+        body{
+    background-color: rgb(102, 138, 205);
+}
+
+.body {
+    width:180px;
+    height:100px;
+    background-color:rgb(206, 54, 80);
+    border-radius: 50%;
+    position: relative;
+    top:260px;
+    left:160px;
+
+}
+
+.tail{
+    width:80px;
+    height:50px;
+    border-bottom-right-radius:20%;
+    border-top-right-radius:20%;
+    border-bottom-left-radius: 100%;
+    border-top-left-radius:100% ;
+     background-image: linear-gradient(to right,rgb(194, 47, 71),rgb(221, 60, 87));
+    position:relative;
+    top:144px;
+    left:325px;
+}
+.fin1{
+    width:80px;
+    height:20px;
+    background-image: linear-gradient(to right,rgb(211, 54, 80),rgb(240, 76, 103));
+    border-bottom-right-radius:20%;
+    border-top-right-radius:20%;
+    border-top-left-radius: 100%;
+    position:relative;
+    top:148px;
+    left:200px;
+    
+
+}
+.fin2{
+    width:80px;
+    height:20px;
+    background-image: linear-gradient(to left,rgb(211, 54, 80),rgb(240, 76, 103));
+    border-bottom-right-radius:20%;
+    border-bottom-left-radius:20%;
+    border-top-right-radius: 100%;
+    position:relative;
+    left:206px;
+    transform: rotate(180deg);
+    top:232px;
+    
+}
+.eye{
+    height:7px;
+    width:7px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top:25px;
+    left:30px;
+}
+.pupil{
+    height:5px;
+    width:5px;
+    background-color: rgb(12, 11, 11);
+    border-radius: 50%;
+
+}
+.smile{
+    border-radius:50% ;
+    width:10px;
+    height:25px;
+    border-top:none;
+    border-left:none ;
+    transform:rotate(-90deg);
+    box-shadow: inset 4px 2px 0px rgb(94, 54, 69);
+    position:relative;
+    top:35px;
+    left:10px;
+}
+.bubbles {
+  position: absolute;
+  bottom: 0;
+  z-index: 5;
+  margin-right: 50px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: .50;
+  width: 40px;
+  height: 40px;
+  animation: up 4s infinite;
+}
+
+.bubble-2 {
+  left: 440px;
+  animation: up 2s infinite;
+}
+
+.bubble-3 {
+  left: 80px;
+  opacity: .30;
+  animation: up 6s infinite;
+}
+
+.bubble-4 {
+  left: 160px;
+  animation: up 8s infinite;
+}
+
+.bubble-5 {
+  left: 200px;
+  animation: up 5s infinite;
+}
+
+.bubble-6 {
+  left: 190px;
+  opacity: .30;
+  animation: up 3s infinite;
+}
+@keyframes up {
+  100% {
+    transform: translateY(-800px);
+  }
+}
+
+        </style>
+    </head>
+    <body>
+        <div class = "fish">
+        <div class ="body">
+        <div class ="eye">
+        <div class= "pupil">
+        </div>
+        </div>
+       
+        <div class ="smile"></div>
+        </div>
+        <div class ="fin1"></div>
+        <div class ="fin2"></div>
+        <div class ="tail"></div>
+        </div>
+
+<div class="bubbles bubble-1"></div>
+<div class="bubbles bubble-2"></div>
+<div class="bubbles bubble-3"></div>
+<div class="bubbles bubble-4"></div>
+<div class="bubbles bubble-5"></div>
+<div class="bubbles bubble-6"></div>
+
+
+
+    </body>
+</html>
